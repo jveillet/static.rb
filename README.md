@@ -1,5 +1,7 @@
 # Static-rb
 
+[![Build Status](https://github.com/jveillet/static-rb/workflows/CI/badge.svg)](https://github.com/jveillet/static-rb/actions)
+
 A very stripped-down HTTP server built with Ruby and Rack, to serve static assets.
 
 ## Prerequisite
@@ -14,7 +16,7 @@ A very stripped-down HTTP server built with Ruby and Rack, to serve static asset
 bundle install
 ```
 
-OR with Docker
+_OR_ with Docker
 
 ```bash
 docker-compose build
@@ -26,7 +28,7 @@ docker-compose build
 bundle exec rackup
 ```
 
-OR with Docker
+_OR_ with Docker
 
 ```bash
 docker-compose up
