@@ -9,17 +9,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
+    - name: Set up Ruby 2.7
+      uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6
         bundler-cache: true
-    - name: Run Test Suite
-      run: |
-        sudo apt-get update
-        sudo apt-get -yqq install apt-transport-https libcurl4-gnutls-dev
-        gem install bundler --no-document
-        bundle install --jobs 4 --retry 3
-        bundle exec rubocop
+    - name: Run Linter
+      run: bundle exec rubocop
       env:
         RACK_ENV: test
