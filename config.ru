@@ -25,7 +25,7 @@ end
 # Options, like port, logs, SSL config, etc..
 webrick_options = {
   Port: 3000,
-  Logger: WEBrick::Log.new($stdout, WEBrick::Log::DEBUG),
+  Logger: WEBrick::Log.new($stdout, WEBrick::Log::INFO),
   DocumentRoot: './'
   # Uncomment this if you want SSL support (you will need valid SSL certificates in the `certs/` folder).
   # SSLEnable: true,
@@ -34,7 +34,8 @@ webrick_options = {
   # SSLCertName: ['CN', WEBrick::Utils.getservername]
 }
 
-Rack::Handler::WEBrick.run app, webrick_options
+# Rack::Handler::WEBrick.run(app, webrick_options)
+Rack::Handler::WEBrick.run(app, **webrick_options)
 
 # Shutdown the server with CTRL + C
 Signal.trap 'INT' do
