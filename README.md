@@ -6,7 +6,7 @@ A very stripped-down HTTP server built with Ruby and Rack, to serve static asset
 
 ## Prerequisite
 
-* Ruby 2.7
+* Ruby 3
 * Docker (optional)
 * Compose (optional)
 
