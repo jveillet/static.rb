@@ -23,6 +23,7 @@ GEM
       parser (>= 2.7.1.5)
     ruby-progressbar (1.11.0)
     unicode-display_width (1.8.0)
+    webrick (1.7.0)
 
 PLATFORMS
   x86_64-linux
@@ -31,6 +32,7 @@ DEPENDENCIES
   dotenv (~> 2.7, >= 2.7.6)
   rack (~> 2.2, >= 2.2.3)
   rubocop (~> 0.90.0)
+  webrick (~> 1.7)
 
 RUBY VERSION
    ruby 3.0.2p107
