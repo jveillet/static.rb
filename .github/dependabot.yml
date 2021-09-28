@@ -1,0 +1,13 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "09:00"
+    timezone: Europe/Paris
+  open-pull-requests-limit: 10
+- package-ecosystem: "docker"
+  directory: "/"
+  schedule:
+    interval: "weekly"
