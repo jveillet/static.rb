@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/jveillet/static-rb/workflows/CI/badge.svg)](https://github.com/jveillet/static.rb/actions)
 
-[![Static.rb](https://raw.githubusercontent.com/jveillet/static.rb/latest/public/assets/images/static-rb.png)]
+[![Static.rb](https://raw.githubusercontent.com/jveillet/static.rb/latest/public/assets/images/static-rb.png)](#installation)
 
 A very stripped-down HTTP server built with Ruby and Rack, to serve static assets.
 
