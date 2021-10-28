@@ -16,5 +16,5 @@ gem 'webrick', '~> 1.7'
 
 group :development, :test do
   # RuboCop is a Ruby code style checking and code formatting tool.
-  gem 'rubocop', '~> 1.21.0'
+  gem 'rubocop', '~> 1.22.3'
 end
