@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-ruby '3.0.2'
+ruby File.read('.ruby-version').strip
 
 # Loads environment variables from `.env`.
 gem 'dotenv', '~> 2.7', '>= 2.7.6'
