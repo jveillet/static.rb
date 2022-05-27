@@ -8,7 +8,7 @@ ruby File.read('.ruby-version').strip
 gem 'dotenv', '~> 2.7', '>= 2.7.6'
 
 # Rack provides a minimal, modular and adaptable interface for developing web applications in Ruby
-gem 'rack', '~> 2.2', '>= 2.2.3'
+gem 'rack', '~> 2.2'
 
 # WEBrick is an HTTP server toolkit that can be configured as an HTTPS server,
 # a proxy server, and a virtual-host server.
