@@ -6,7 +6,7 @@ GEM
     parallel (1.21.0)
     parser (3.1.1.0)
       ast (~> 2.4.1)
-    rack (2.2.3)
+    rack (2.2.4)
     rainbow (3.1.1)
     regexp_parser (2.2.1)
     rexml (3.2.5)
@@ -30,7 +30,7 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv (~> 2.7, >= 2.7.6)
-  rack (~> 2.2, >= 2.2.3)
+  rack (~> 2.2)
   rubocop (~> 1.26.0)
   webrick (~> 1.7)
 
