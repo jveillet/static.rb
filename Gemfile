@@ -12,7 +12,7 @@ gem 'rack', '~> 2.2'
 
 # WEBrick is an HTTP server toolkit that can be configured as an HTTPS server,
 # a proxy server, and a virtual-host server.
-gem 'webrick', '~> 1.7'
+gem 'webrick', '~> 1.8'
 
 group :development, :test do
   # RuboCop is a Ruby code style checking and code formatting tool.
