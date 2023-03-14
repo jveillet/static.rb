@@ -7,7 +7,7 @@ GEM
     parallel (1.22.1)
     parser (3.2.1.1)
       ast (~> 2.4.1)
-    rack (3.0.6)
+    rack (3.0.6.1)
     rainbow (3.1.1)
     regexp_parser (2.7.0)
     rexml (3.2.5)
@@ -37,7 +37,7 @@ DEPENDENCIES
   webrick (~> 1.8)
 
 RUBY VERSION
-   ruby 3.1.2p20
+   ruby 3.2.1p31
 
 BUNDLED WITH
    2.2.22
