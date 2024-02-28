@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 ruby File.read('.ruby-version').strip
 
 # Loads environment variables from `.env`.
-gem 'dotenv', '~> 3.0'
+gem 'dotenv', '~> 3.1'
 
 # Rack provides a minimal, modular and adaptable interface for developing web applications in Ruby
 gem 'rack', '~> 3.0'
