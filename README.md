@@ -21,7 +21,7 @@ bundle install
 _OR_ with Docker
 
 ```bash
-docker-compose build
+docker compose build
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ bundle exec rackup
 _OR_ with Docker
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 The website is available at [http://localhost:3000](http://localhost:3000)
