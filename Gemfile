@@ -17,5 +17,5 @@ gem 'webrick', '~> 1.8', '>= 1.8.1'
 
 group :development, :test do
   # RuboCop is a Ruby code style checking and code formatting tool.
-  gem 'rubocop', '~> 1.64', '>= 1.64.1'
+  gem 'rubocop', '~> 1.65'
 end
