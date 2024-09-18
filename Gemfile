@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 # Loads environment variables from `.env`.
-gem 'dotenv', '~> 3.1', '>= 3.1.2'
+gem 'dotenv', '~> 3.1'
 
 # Rack provides a minimal, modular and adaptable interface for developing web applications in Ruby
 gem 'rack', '~> 3.1'
