@@ -9,7 +9,7 @@ gem 'dotenv', '~> 3.1'
 gem 'rack', '~> 3.1'
 
 # A general server command for Rack applications.
-gem 'rackup', '~> 2.1'
+gem 'rackup', '~> 2.2'
 
 # WEBrick is an HTTP server toolkit that can be configured as an HTTPS server,
 # a proxy server, and a virtual-host server.
