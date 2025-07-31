@@ -6,7 +6,7 @@ source 'https://rubygems.org'
 gem 'dotenv', '~> 3.1'
 
 # Rack provides a minimal, modular and adaptable interface for developing web applications in Ruby
-gem 'rack', '~> 3.1'
+gem 'rack', '~> 3.2'
 
 # A general server command for Rack applications.
 gem 'rackup', '~> 2.2'
